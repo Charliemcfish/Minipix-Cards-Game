@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'DisposableDroidBB';
+  src: url('./DisposableDroidBB.ttf') format('truetype');
+  /* Add more formats if necessary, e.g., woff, woff2 */
+}
+
+.battle-one-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.battle-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 250px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.health-bar {
+  height: 20px;
+  background-color: green;
+  margin-top: 10px;
+  width: 100%; /* Adjust the width as needed */
+}
+
+.winner-message {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attack-button, .back-button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Add these styles to Battle.css */
+
+.attack-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  z-index: 1000;
+}
+
+.vs-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.vs-overlay img {
+  width: 300px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.battle-one-container {
+  position: relative;
+}
+
+.battle-content {
+  position: relative;
+  z-index: 1; /* Ensure battle content is on top of other elements */
+}
+
+.attack-gif-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0; /* Set lower z-index to be behind the battle content */
+}
+
+
+
+

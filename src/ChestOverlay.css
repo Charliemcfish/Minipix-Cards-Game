@@ -1,0 +1,18 @@
+/* ChestOverlay.css */
+.chest-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #61380a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .chest-overlay img {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  

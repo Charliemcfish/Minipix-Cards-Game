@@ -1,13 +1,16 @@
+/* index.css */
 body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe6cc; /* Light brown background color */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-image: url('./interior.png'); /* Set background for the entire body */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: This prevents the background from scrolling with the content */
+  height: 120vw; /* 100% of the viewport height */
+  width: 120vw; /* 100% of the viewport width */
+  overflow: hidden; /* Optional: This prevents scrollbars */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* ... (rest of your styles) */
