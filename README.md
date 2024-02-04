@@ -1,5 +1,5 @@
 
-# MiniPix Cards
+# MiniPix Cards 
 
 ![MiniPix Cards Logo](https://i.imgur.com/GvVo0BZ.jpg)
 [Click here to Play!](https://minipixcards.netlify.app)
